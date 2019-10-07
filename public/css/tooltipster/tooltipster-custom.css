@@ -1,0 +1,12 @@
+.tooltipster-follower.tooltipster-noir.tooltipster-noir-customized .tooltipster-box {
+    background: #0d0d0d;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+.tooltipster-follower.tooltipster-noir.tooltipster-noir-customized .tooltipster-content {
+    color: #fff;
+    padding: 8px;
+}
+

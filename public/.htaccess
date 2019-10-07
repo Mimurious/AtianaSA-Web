@@ -1,0 +1,4 @@
+Options -Indexes
+RequestHeader unset Cookie
+Header unset Cookie
+Header unset Set-Cookie
