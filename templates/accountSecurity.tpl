@@ -24,8 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 			if(!isset($_SESSION['sCode'])) $_SESSION['sCode'] = numberfa(rand(10000, 99999));
 			$phone = $_SESSION['phone'];
 			$client = new SoapClient("http://37.130.202.188/class/sms/wsdlservice/server.php?wsdl");
-			$user = "***REMOVED***";
-			$pass = "***REMOVED***";
+			$user = "REMOVED";
+			$pass = "REMOVED";
 			$fromNum = "+985000125475";
 			$toNum = array($phone);
 			$pattern_code = "256";
@@ -53,8 +53,8 @@ else if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		else {
 			$_SESSION['sCode'] = rand(10000, 99999);
 			$client = new SoapClient("http://37.130.202.188/class/sms/wsdlservice/server.php?wsdl");
-			$user = "***REMOVED***";
-			$pass = "***REMOVED***";
+			$user = "REMOVED";
+			$pass = "REMOVED";
 			$fromNum = "+98100020400";
 			$toNum = array($phone);
 			$pattern_code = "256";
